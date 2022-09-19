@@ -18,7 +18,6 @@
 		7C19753F28D1E920008F8F79 /* IoC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C19753E28D1E920008F8F79 /* IoC.swift */; };
 		7C19754028D1EA14008F8F79 /* Resolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C19751928D1D99F008F8F79 /* Resolved.swift */; };
 		7C4CFE3028D6AF3500445B1A /* TodosScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4CFE2F28D6AF3500445B1A /* TodosScreenViewModel.swift */; };
-		7C4CFE3428D6B12C00445B1A /* TodosScreenViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4CFE3328D6B12C00445B1A /* TodosScreenViewModelTests.swift */; };
 		7C4CFE3628D6B2CF00445B1A /* Bootstapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4CFE3528D6B2CF00445B1A /* Bootstapper.swift */; };
 		7C4CFE3828D6B53100445B1A /* TextPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4CFE3728D6B53100445B1A /* TextPromptView.swift */; };
 		7C4CFE3A28D6B53100445B1A /* TextPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4CFE3728D6B53100445B1A /* TextPromptView.swift */; };
@@ -75,7 +74,6 @@
 		7C19753A28D1DC7C008F8F79 /* AuthenticationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationContext.swift; sourceTree = "<group>"; };
 		7C19753E28D1E920008F8F79 /* IoC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoC.swift; sourceTree = "<group>"; };
 		7C4CFE2F28D6AF3500445B1A /* TodosScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosScreenViewModel.swift; sourceTree = "<group>"; };
-		7C4CFE3328D6B12C00445B1A /* TodosScreenViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosScreenViewModelTests.swift; sourceTree = "<group>"; };
 		7C4CFE3528D6B2CF00445B1A /* Bootstapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootstapper.swift; sourceTree = "<group>"; };
 		7C4CFE3728D6B53100445B1A /* TextPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPromptView.swift; sourceTree = "<group>"; };
 		7C54468D28D68C380069DE5F /* IoC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoC.swift; sourceTree = "<group>"; };
@@ -185,7 +183,6 @@
 		7C19753228D1DACA008F8F79 /* Demooo-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7C4CFE3228D6B11000445B1A /* ViewModels */,
 				7C4CFE3128D6B10900445B1A /* Contexts */,
 				7CFD9F2F28D30FB6004989E0 /* Testify */,
 				7C19753E28D1E920008F8F79 /* IoC.swift */,
@@ -200,14 +197,6 @@
 				7CFD9F4228D33338004989E0 /* TodosContextTests.swift */,
 			);
 			path = Contexts;
-			sourceTree = "<group>";
-		};
-		7C4CFE3228D6B11000445B1A /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				7C4CFE3328D6B12C00445B1A /* TodosScreenViewModelTests.swift */,
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		7C54469628D691E40069DE5F /* Screens */ = {
@@ -444,7 +433,6 @@
 			files = (
 				7CFD9F3928D31337004989E0 /* TodosService.swift in Sources */,
 				7C19753F28D1E920008F8F79 /* IoC.swift in Sources */,
-				7C4CFE3428D6B12C00445B1A /* TodosScreenViewModelTests.swift in Sources */,
 				7C19754028D1EA14008F8F79 /* Resolved.swift in Sources */,
 				7CFD9F4328D33338004989E0 /* TodosContextTests.swift in Sources */,
 				7CE9146F28D6A1110047783F /* RealTodosService.swift in Sources */,
