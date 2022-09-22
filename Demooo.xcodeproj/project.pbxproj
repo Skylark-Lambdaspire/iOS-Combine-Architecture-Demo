@@ -165,7 +165,7 @@
 			children = (
 				7CE9146C28D6A0F50047783F /* Contexts */,
 				7CE9146D28D6A1050047783F /* Services */,
-				7CE9146828D69FFB0047783F /* StandardPreviews */,
+				7CE9146828D69FFB0047783F /* Previews */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -234,12 +234,12 @@
 			path = Previews;
 			sourceTree = "<group>";
 		};
-		7CE9146828D69FFB0047783F /* StandardPreviews */ = {
+		7CE9146828D69FFB0047783F /* Previews */ = {
 			isa = PBXGroup;
 			children = (
 				7CE9146928D6A0040047783F /* StandardPreviews.swift */,
 			);
-			path = StandardPreviews;
+			path = Previews;
 			sourceTree = "<group>";
 		};
 		7CE9146C28D6A0F50047783F /* Contexts */ = {
