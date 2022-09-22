@@ -33,9 +33,7 @@ struct SignInScreen : View {
     }
     
     @ViewBuilder private func Footer() -> some View {
-        Button(action: {
-            vm.signIn()
-        }) {
+        Button(action: vm.signIn) {
             Label("Sign In", systemImage: "lock")
                 .font(.body)
                 .frame(maxWidth: .infinity)
@@ -50,8 +48,7 @@ struct SignInScreen : View {
             isActive: .init(
                 get: { vm.isAuthenticated },
                 set: { v in
-                    if v { return }
-                    vm.signOut()
+                    if !v { vm.signOut() }
                 })) {
                     TodosScreen()
                 }
